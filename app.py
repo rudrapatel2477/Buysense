@@ -69,52 +69,54 @@ if select == "Home":
 
     category = df["recommended_category"].value_counts()
 
-    fig, ax = plt.subplots(figsize=(6,4))
-    bars = ax.bar(
+    col1, col2 = st.columns(2)
+    with col1:
+        fig, ax = plt.subplots(figsize=(6,4))
+        bars = ax.bar(
             category.index,
             category.values,
             color=["#667eea", "#764ba2", "#f093fb", "#4facfe", "#43e97b", "#fa709a"],
             edgecolor="white",
             linewidth=0.5
         )
-    ax.bar_label(bars, color="white", fontsize=11)
-    ax.set_xlabel("Recommended Category", fontsize=11, color="white")
-    ax.set_ylabel("Count", fontsize=11, color="white")
-    ax.set_title("Category Prediction Confidence", fontsize=13, fontweight="bold", color="white")
-    ax.tick_params(axis="x", rotation=45, colors="white")
-    ax.tick_params(axis="y", colors="white")
-    ax.spines["bottom"].set_color("white")
-    ax.spines["left"].set_color("white")
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    fig.patch.set_facecolor("#0e1117")
-    ax.set_facecolor("#0e1117")
-    plt.tight_layout()
+        ax.bar_label(bars, color="white", fontsize=11)
+        ax.set_xlabel("Recommended Category", fontsize=11, color="white")
+        ax.set_ylabel("Count", fontsize=11, color="white")
+        ax.set_title("Category Prediction Confidence", fontsize=13, fontweight="bold", color="white")
+        ax.tick_params(axis="x", rotation=45, colors="white")
+        ax.tick_params(axis="y", colors="white")
+        ax.spines["bottom"].set_color("white")
+        ax.spines["left"].set_color("white")
+        ax.spines["top"].set_visible(False)
+        ax.spines["right"].set_visible(False)
+        fig.patch.set_facecolor("#0e1117")
+        ax.set_facecolor("#0e1117")
+        plt.tight_layout()
 
-    st.pyplot(fig)
+        st.pyplot(fig)
 
     st.markdown("#### Preferred Shopping Device")
-
-    device = df["preferred_device"].value_counts()
-    colors = [
+    with col2:
+        device = df["preferred_device"].value_counts()
+        colors = [
             "#10B981",
             "#EF4444",
             "#8B5CF6"
         ]
 
-    fig, ax = plt.subplots(figsize=(3,2))
+        fig, ax = plt.subplots(figsize=(3,2))
 
-    ax.pie(
+        ax.pie(
             device.values,
             labels=device.index,
             autopct="%1.1f%%",
             colors=colors,
             textprops={"color": "white"}
-    )
-    fig.patch.set_facecolor("#0e1117")
-    ax.set_facecolor("#0e1117")
-    plt.tight_layout()
-    st.pyplot(fig)
+        )
+        fig.patch.set_facecolor("#0e1117")
+        ax.set_facecolor("#0e1117")
+        plt.tight_layout()
+        st.pyplot(fig)
 
     st.divider()
 
