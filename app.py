@@ -494,16 +494,11 @@ elif select == "About":
     st.header("📌 Project Overview")
 
     st.write("""
-BuySense AI is an intelligent shopping recommendation system developed
-using Machine Learning.
+##### BuySense AI is an intelligent shopping recommendation system developed using Machine Learning.
 
-The application analyzes a user's shopping interests and predicts
-which product category they are most likely to purchase.
+##### The application analyzes a user's shopping interests and predicts which product category they are most likely to purchase.
 
-Instead of asking users many complicated questions, the system takes only
-a few simple inputs and automatically predicts the best shopping category
-using a trained Random Forest Machine Learning model.
-""")
+##### Instead of asking users many complicated questions, the system takes only a few simple inputs and automatically predicts the best shopping category using a trained Random Forest Machine Learning model.""")
 
     st.divider()
 
@@ -513,71 +508,59 @@ using a trained Random Forest Machine Learning model.
 
     with col1:
 
-        st.success("🎯 Smart Category Prediction")
+        st.success("##### 🎯 Smart Category Prediction")
 
-        st.success("📊 Confidence Score")
+        st.success("##### 📊 Confidence Score")
 
-        st.success("📈 Probability Chart")
+        st.success("##### 📈 Probability Chart")
 
-        st.success("🏆 Top 3 Recommendations")
+        st.success("##### 🏆 Top 3 Recommendations")
 
-        st.success("⚡ Fast Prediction")
+        st.success("##### ⚡ Fast Prediction")
 
     with col2:
 
-        st.success("🤖 Machine Learning Model")
+        st.success("##### 🎯 Machine Learning Model")
 
-        st.success("👤 User Friendly Interface")
+        st.success("##### 👤 User Friendly Interface")
 
-        st.success("📂 Dataset Analysis")
+        st.success("##### 📂 Dataset Analysis")
 
-        st.success("📱 Responsive Design")
+        st.success("##### 📱 Responsive Design")
 
-        st.success("💡 Shopping Insights")
+        st.success("##### 💡 Shopping Insights")
 
     st.divider()
-
-    st.header("⚙️ How BuySense AI Works")
 with st.container():
     st.markdown("## ⚙️ How BuySense AI Works")
 
-    st.info("""
-**🟢 Step 1 – User Profile**
+    st.success("""
+#### **🟢 Step 1 – User Profile**\n
 
-• 👤 Age Group  
-• 📱 Shopping Device  
-• 🏷️ Discount Preference
 """)
-
+    st.info("""##### • 👤 Age Group  
+##### • 📱 Shopping Device  
+##### • 🏷️ Discount Preference""")
+    st.divider()
+    st.success("""#### **🟢 Step 2 – Interest Rating**""")
     st.info("""
-**🟢 Step 2 – Interest Rating**
+##### • 💻 Electronics  
+##### • 👕 Fashion  
+##### • 🏠 Home Decor  
+##### • 📚 Books  
+##### • 💪 Fitness  
+##### • 💄 Beauty""")
+    st.divider()
+    st.success("""
+#### **🟢 Step 3 – AI Analysis**""")
+    st.info("""##### 🤖 The Machine Learning model processes all user preferences and shopping behavior.""")
 
-• 💻 Electronics  
-• 👕 Fashion  
-• 🏠 Home Decor  
-• 📚 Books  
-• 💪 Fitness  
-• 💄 Beauty
-""")
-
-    st.info("""
-**🟢 Step 3 – AI Analysis**
-
-🤖 The Machine Learning model processes all user preferences and shopping behavior.
-""")
-
-    st.info("""
-**🟢 Step 4 – Prediction**
-
-✅ Best Shopping Category
-
-📊 Confidence Percentage
-
-🥇 Top 3 Recommendations
-
-📈 Probability Distribution
-""")
-
+    st.divider()
+    st.success("""#### **🟢 Step 4 – Prediction**""")
+    st.info("""##### ✅ Best Shopping Category\n
+##### 📊 Confidence Percentage\n
+##### 🥇 Top 3 Recommendations\n
+##### 📈 Probability Distribution""")
     st.divider()
 
     st.header("🤖 Machine Learning")
@@ -642,24 +625,24 @@ dataset and predicts the most suitable product category for new users.
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.info("###Programming\n**Python")
+        st.success("### Programming\n#### **Python**")
 
     with col2:
-        st.info("###Framework\n**Streamlit**")
+        st.success("### Framework\n#### **Streamlit**")
 
     with col3:
-        st.info("###ML Model\n**Random Forest**")
+        st.success("### ML Model\n#### **Random Forest**")
 
     col4, col5, col6 = st.columns(3)
 
     with col4:
-        st.info("###Visualization\n**Matplotlib**")
+        st.success("### Visualization\n#### **Matplotlib**")
 
     with col5:
-        st.info("###Data Processing\n**Pandas**")
+        st.success("### Data Processing\n#### **Pandas**")
 
     with col6:
-        st.info("###ML Library\n**Scikit-Learn**")
+        st.success("### ML Library\n#### **Scikit-Learn**")
 
     st.divider()
     st.header("🎯 Project Objective")
