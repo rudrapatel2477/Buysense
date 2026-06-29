@@ -549,7 +549,7 @@ with st.container():
 • 🏷️ Discount Preference
 """)
 
-    st.success("""
+    st.info("""
 **🟢 Step 2 – Interest Rating**
 
 • 💻 Electronics  
@@ -560,13 +560,13 @@ with st.container():
 • 💄 Beauty
 """)
 
-    st.success("""
+    st.info("""
 **🟢 Step 3 – AI Analysis**
 
 🤖 The Machine Learning model processes all user preferences and shopping behavior.
 """)
 
-    st.success("""
+    st.info("""
 **🟢 Step 4 – Prediction**
 
 ✅ Best Shopping Category
@@ -582,7 +582,7 @@ with st.container():
 
     st.header("🤖 Machine Learning")
 
-    st.success("""
+    st.info("""
 Algorithm Used:
 
     • Random Forest Classifier
