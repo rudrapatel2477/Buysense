@@ -466,9 +466,6 @@ elif select == "Dataset":
     st.info("The Machine Learning model predicts the 'recommended_category' based on user shopping behaviour and preferences.")
 elif select == "About":
 
-    st.title("ℹ️ About BuySense AI")
-    st.divider()
-
     st.markdown("""
     <div style="
         background: linear-gradient(135deg,#0F172A,#1E40AF);
