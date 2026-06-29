@@ -541,7 +541,7 @@ using a trained Random Forest Machine Learning model.
 with st.container():
     st.markdown("## ⚙️ How BuySense AI Works")
 
-    st.success("""
+    st.info("""
 **🟢 Step 1 – User Profile**
 
 • 👤 Age Group  
