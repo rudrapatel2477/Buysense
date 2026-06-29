@@ -539,41 +539,44 @@ using a trained Random Forest Machine Learning model.
 
     st.header("⚙️ How BuySense AI Works")
 
-    st.write("""
-### Step 1️⃣
+   with st.container(border=True):
+    st.markdown("## ⚙️ How BuySense AI Works")
 
-The user selects:
+    st.success("""
+**🟢 Step 1 – User Profile**
 
-  - Age Group
-  - Shopping Device
-  - Discount Preference
+• 👤 Age Group  
+• 📱 Shopping Device  
+• 🏷️ Discount Preference
+""")
 
-### Step 2️⃣
+    st.success("""
+**🟢 Step 2 – Interest Rating**
 
-The user rates interest in different shopping categories:
+• 💻 Electronics  
+• 👕 Fashion  
+• 🏠 Home Decor  
+• 📚 Books  
+• 💪 Fitness  
+• 💄 Beauty
+""")
 
-- Electronics
-- Fashion
-- Home Decor
-- Books
-- Fitness
-- Beauty
+    st.success("""
+**🟢 Step 3 – AI Analysis**
 
-### Step 3️⃣
+🤖 The Machine Learning model processes all user preferences and shopping behavior.
+""")
 
-The Machine Learning model processes the information.
-
-### Step 4️⃣
-
-The system predicts:
+    st.success("""
+**🟢 Step 4 – Prediction**
 
 ✅ Best Shopping Category
 
-✅ Confidence Percentage
+📊 Confidence Percentage
 
-✅ Top 3 Recommendations
+🥇 Top 3 Recommendations
 
-✅ Probability Distribution
+📈 Probability Distribution
 """)
 
     st.divider()
