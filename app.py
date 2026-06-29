@@ -531,41 +531,41 @@ elif select == "About":
         st.success("##### 💡 Shopping Insights")
 
     st.divider()
-with st.container():
-    st.markdown("## ⚙️ How BuySense AI Works")
+    with st.container():
+        st.markdown("## ⚙️ How BuySense AI Works")
 
-    st.success("""
+        st.success("""
 #### **🟢 Step 1 – User Profile**\n
 
 """)
-    st.info("""##### • 👤 Age Group  
+        st.info("""##### • 👤 Age Group  
 ##### • 📱 Shopping Device  
 ##### • 🏷️ Discount Preference""")
-    st.divider()
-    st.success("""#### **🟢 Step 2 – Interest Rating**""")
-    st.info("""
+        st.divider()
+        st.success("""#### **🟢 Step 2 – Interest Rating**""")
+        st.info("""
 ##### • 💻 Electronics  
 ##### • 👕 Fashion  
 ##### • 🏠 Home Decor  
 ##### • 📚 Books  
 ##### • 💪 Fitness  
 ##### • 💄 Beauty""")
-    st.divider()
-    st.success("""
+        st.divider()
+        st.success("""
 #### **🟢 Step 3 – AI Analysis**""")
-    st.info("""##### 🤖 The Machine Learning model processes all user preferences and shopping behavior.""")
+        st.info("""##### 🤖 The Machine Learning model processes all user preferences and shopping behavior.""")
 
-    st.divider()
-    st.success("""#### **🟢 Step 4 – Prediction**""")
-    st.info("""##### ✅ Best Shopping Category\n
+        st.divider()
+        st.success("""#### **🟢 Step 4 – Prediction**""")
+        st.info("""##### ✅ Best Shopping Category\n
 ##### 📊 Confidence Percentage\n
 ##### 🥇 Top 3 Recommendations\n
 ##### 📈 Probability Distribution""")
-    st.divider()
+        st.divider()
 
-    st.header("🤖 Machine Learning")
+        st.header("🤖 Machine Learning")
 
-    st.success("""
+        st.success("""
 Algorithm Used:
 
     • Random Forest Classifier
