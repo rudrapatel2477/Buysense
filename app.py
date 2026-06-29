@@ -642,11 +642,11 @@ dataset and predicts the most suitable product category for new users.
 
     tech1, tech2, tech3 = st.columns(3)
 
-    tech1.metric("Programming", "Python")
+    tech1.info("Programming", "Python")
 
-    tech2.metric("Framework", "Streamlit")
+    tech2.info("Framework", "Streamlit")
 
-    tech3.metric("ML Model", "Random Forest")
+    tech3.info("ML Model", "Random Forest")
 
     st.write("")
 
