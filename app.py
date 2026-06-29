@@ -640,23 +640,30 @@ dataset and predicts the most suitable product category for new users.
 
     st.divider()
 
-    st.header("🛠️ Technologies Used")
+   st.divider()
+   st.header("🛠️ Technologies Used")
 
-    st.info("""
-## 🚀 Development Stack
+col1, col2, col3 = st.columns(3)
 
-🐍 **Programming Language:** Python
+with col1:
+    st.info("### 🐍 Programming\n**Python**")
 
-🌐 **Framework:** Streamlit
+with col2:
+    st.info("### 🌐 Framework\n**Streamlit**")
 
-🤖 **Machine Learning Model:** Random Forest Classifier
+with col3:
+    st.info("### 🤖 ML Model\n**Random Forest**")
 
-📊 **Visualization Library:** Matplotlib
+col4, col5, col6 = st.columns(3)
 
-🗂️ **Data Processing:** Pandas
+with col4:
+    st.info("### 📊 Visualization\n**Matplotlib**")
 
-📚 **Machine Learning Library:** Scikit-Learn
-""")
+with col5:
+    st.info("### 🗂️ Data Processing\n**Pandas**")
+
+with col6:
+    st.info("### 📚 ML Library\n**Scikit-Learn**")
 
     st.divider()
     st.header("🎯 Project Objective")
