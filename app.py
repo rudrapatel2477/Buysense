@@ -653,7 +653,7 @@ dataset and predicts the most suitable product category for new users.
 | 📚 **ML Library** | Scikit-Learn |
 """)
 
-st.divider()
+    st.divider()
     st.header("🎯 Project Objective")
 
     st.write("""
