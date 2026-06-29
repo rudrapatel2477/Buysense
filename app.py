@@ -638,11 +638,9 @@ dataset and predicts the most suitable product category for new users.
 
     st.divider()
 
-    st.divider()
+    st.header("🛠️ Technologies Used")
 
-st.header("🛠️ Technologies Used")
-
-st.info("""
+    st.info("""
 ### 💻 Development Stack
 
 | Technology | Used |
