@@ -582,7 +582,7 @@ with st.container():
 
     st.header("🤖 Machine Learning")
 
-    st.info("""
+    st.success("""
 Algorithm Used:
 
     • Random Forest Classifier
