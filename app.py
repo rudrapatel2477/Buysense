@@ -538,8 +538,7 @@ using a trained Random Forest Machine Learning model.
     st.divider()
 
     st.header("⚙️ How BuySense AI Works")
-
-   with st.container(border=True):
+with st.container(border=True):
     st.markdown("## ⚙️ How BuySense AI Works")
 
     st.success("""
