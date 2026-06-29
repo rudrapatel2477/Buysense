@@ -638,28 +638,24 @@ dataset and predicts the most suitable product category for new users.
 
     st.divider()
 
-    st.header("🛠️ Technologies Used")
-
-    tech1, tech2, tech3 = st.columns(3)
-
-    tech1.info("Programming", "Python")
-
-    tech2.info("Framework", "Streamlit")
-
-    tech3.info("ML Model", "Random Forest")
-
-    st.write("")
-
-    tech4, tech5, tech6 = st.columns(3)
-
-    tech4.metric("Visualization", "Matplotlib")
-
-    tech5.metric("Data", "Pandas")
-
-    tech6.metric("ML Library", "Scikit-Learn")
-
     st.divider()
 
+st.header("🛠️ Technologies Used")
+
+st.info("""
+### 💻 Development Stack
+
+| Technology | Used |
+|------------|------|
+| 🐍 **Programming Language** | Python |
+| 🌐 **Framework** | Streamlit |
+| 🤖 **Machine Learning Model** | Random Forest Classifier |
+| 📊 **Visualization** | Matplotlib |
+| 🗂️ **Data Processing** | Pandas |
+| 📚 **ML Library** | Scikit-Learn |
+""")
+
+st.divider()
     st.header("🎯 Project Objective")
 
     st.write("""
