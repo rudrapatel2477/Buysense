@@ -243,12 +243,12 @@ elif select == "Prediction":
         fashion     = st.slider("👗 Fashion & Clothing",    0, 10, 5)
 
     with interest_col2:
-        home_decor = st.slider("🏠 Home Decor & Furniture", 1, 10, 5)
-        books      = st.slider("📚 Books & Education",      1, 10, 5)
+        home_decor = st.slider("🏠 Home Decor & Furniture", 0, 10, 5)
+        books      = st.slider("📚 Books & Education",      0, 10, 5)
 
     with interest_col3:
-        fitness = st.slider("🏋️ Fitness & Sports", 1, 10, 5)
-        beauty  = st.slider("💄 Beauty & Skincare", 1, 10, 5)
+        fitness = st.slider("🏋️ Fitness & Sports", 0, 10, 5)
+        beauty  = st.slider("💄 Beauty & Skincare", 0, 10, 5)
 
     st.divider()
 
@@ -686,6 +686,8 @@ Artificial Intelligence and Machine Learning.
     <p>Smart Shopping Category Recommendation System</p>
 
     <p>Built with ❤️ using Python, Streamlit & Machine Learning</p>
+
+    <p>Made By : Patel Rudra & Panchal Rudra
 
     </div>
     """, unsafe_allow_html=True)
