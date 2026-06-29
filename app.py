@@ -544,9 +544,9 @@ using a trained Random Forest Machine Learning model.
 
 The user selects:
 
-- Age Group
-- Shopping Device
-- Discount Preference
+  - Age Group
+  - Shopping Device
+  - Discount Preference
 
 ### Step 2️⃣
 
