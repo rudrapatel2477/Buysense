@@ -583,17 +583,17 @@ The system predicts:
     st.info("""
 Algorithm Used:
 
-• Random Forest Classifier
+    • Random Forest Classifier
 
 Libraries Used:
 
-• Pandas
+    • Pandas
 
-• Scikit-Learn
+    • Scikit-Learn
 
-• Matplotlib
+    • Matplotlib
 
-• Streamlit
+    • Streamlit
 
 The Random Forest algorithm learns shopping behaviour from the training
 dataset and predicts the most suitable product category for new users.
