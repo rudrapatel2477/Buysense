@@ -637,36 +637,32 @@ dataset and predicts the most suitable product category for new users.
                  hide_index=True)
 
     st.divider()
+    st.header("🛠️ Technologies Used")
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.info("### 🐍 Programming\n**Python**")
+
+    with col2:
+        st.info("### 🌐 Framework\n**Streamlit**")
+
+    with col3:
+        st.info("### 🤖 ML Model\n**Random Forest**")
+
+    col4, col5, col6 = st.columns(3)
+
+    with col4:
+        st.info("### 📊 Visualization\n**Matplotlib**")
+
+    with col5:
+        st.info("### 🗂️ Data Processing\n**Pandas**")
+
+    with col6:
+        st.info("### 📚 ML Library\n**Scikit-Learn**")
 
     st.divider()
-
-   st.divider()
-   st.header("🛠️ Technologies Used")
-
-  col1, col2, col3 = st.columns(3)
-
-  with col1:
-      st.info("### 🐍 Programming\n**Python**")
-
-  with col2:
-      st.info("### 🌐 Framework\n**Streamlit**")
-
-  with col3:
-      st.info("### 🤖 ML Model\n**Random Forest**")
-
-  col4, col5, col6 = st.columns(3)
-
-  with col4:
-      st.info("### 📊 Visualization\n**Matplotlib**")
-
-  with col5:
-      st.info("### 🗂️ Data Processing\n**Pandas**")
-
-  with col6:
-      st.info("### 📚 ML Library\n**Scikit-Learn**")
-
-  st.divider()
-  st.header("🎯 Project Objective")
+    st.header("🎯 Project Objective")
 
     st.write("""
 The objective of BuySense AI is to simplify shopping recommendations
